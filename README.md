@@ -7,7 +7,10 @@ Steel is an alloy of iron and carbon that has played a pivotal role in the devel
 
 Why is Predicting Steel Properties Important?
 Researchers continue to explore and develop steel alloys with new compositions and improved performance characteristics. An understanding of the current design space can help accelerate the discovery of new alloys.
-This project aims to develop predictive models for estimating the yield strength, tensile strength, and elongation of steel based on its chemical composition and other relevant factors. The code provided demonstrates various approaches, including Random Forest Regression, Linear Regression with Polynomial Features and Ridge Regularization, Deep Neural Networks, XGBoost, and Support Vector Regression.
+This project aims to develop predictive models for estimating the yield strength, tensile strength, and elongation of steel based on its chemical composition and other relevant factors. 
+The code provided used the steel dataset from materialsproject.org (https://ml.materialsproject.org/projects/matbench_steels) demonstrates various approaches, including Random Forest Regression, Linear Regression with Polynomial Features and Ridge Regularization, Deep Neural Networks, XGBoost, and Support Vector Regression.
+
+In addition to the model MSE, I set an artificial Pass/Fail criteria, for engineering purposes, of 10% allowable error for each prediction error (_preds_% columns). The reasons for this is in the real world, these values typically have a range to account for various measurements error and otyher variations. This value could easliy be chnaged to any other values.
 
 ### Random Forest Regression with Grid Search
 The Random Forest Regression model with Grid Search achieved the following results:
