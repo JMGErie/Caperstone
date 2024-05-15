@@ -59,3 +59,11 @@ It's important to note although Random Forrest Regressor performed the best, it 
 Continuous refinement and exploration of different modeling techniques, along with the integration of additional relevant features, could further improve the accuracy of predicting steel properties.
 
 Overall, this project highlights the potential importance machine learning can play in predicting materials properties accurately using techniques such as linear regression, deep neural network and ensemble methods like Random Forest Regression and XGBoost.
+
+#### Next steps
+The current models were build on solely composition/elemental data. There are many factors that comes in to play when it comes to yield strength such as manufacturing process parameters (e.g., rolling conditions, heat treatment), microstructural features (e.g., grain size, phase fractions), environmental conditions during service (e.g., temperature, pressure). Incorporating thsese features would make more wholesome predictive models. once a final model is built, I would:
+- Save the train model
+- Create a development environment (still new to me)
+- Load the saved model to the enviroment
+- Create an API endpoint
+- Monitor the model's performance and make improvement
