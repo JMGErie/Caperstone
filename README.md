@@ -78,4 +78,4 @@ The current models were build on solely composition/elemental data. There are ma
 - Monitor the model's performance and make improvement
 
   #### Outline of Project
-  -[data analysis and code]()
+  -[data analysis and code](https://github.com/JMGErie/Caperstone/blob/main/steel.ipynb)
