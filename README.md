@@ -1,10 +1,10 @@
-# Caperstone
-Predicting steel yeild strength, tensile strength and elongation.
+### Predicting steel yeild strength, tensile strength and elongation.
+** Jean-Marie (JM) Erie**
 
-Steel: A Vital Material and the Importance of Predicting its Properties
-### Introduction
-Steel is an alloy of iron and carbon that has played a pivotal role in the development of modern civilization. Its strength, durability, and versatility have made it an indispensable material in various industries, including construction, transportation, manufacturing, and energy. However, predicting the mechanical properties of steel, such as yield strength, tensile strength, and elongation, remains a significant challenge due to the complex interactions between its various alloying elements.
+#### Executive Summary
+Stee's strength, durability, and versatility have made it an indispensable material in various industries, including construction, transportation, manufacturing, and energy. However, predicting the mechanical properties of steel, such as yield strength, tensile strength, and elongation, remains a significant challenge due to the complex interactions between its various alloying elements and high cost of formulating and producing sample for testing. In this project, I attempted several models the yeild and tensile strengths and elongation using Randon Forrest, linear, SV, neural network and XGBoost. in addition to feature engineering such as data clean up, scaling, I also further optimised some of the models by the use of using cross validated Grid Search 
 
+#### Rationale
 Why is Predicting Steel Properties Important?
 Researchers continue to explore and develop steel alloys with new compositions and improved performance characteristics. An understanding of the current design space can help accelerate the discovery of new alloys.
 This project aims to develop predictive models for estimating the yield strength, tensile strength, and elongation of steel based on its chemical composition and other relevant factors. 
