@@ -79,3 +79,6 @@ The current models were build on solely composition/elemental data. There are ma
 
   #### Outline of Project
   -[data analysis and code](https://github.com/JMGErie/Caperstone/blob/main/steel.ipynb)
+
+  ##### Contact and Further Information
+  I can be contacted @ jmgerie@gmail.com
